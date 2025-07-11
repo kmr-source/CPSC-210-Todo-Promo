@@ -1,4 +1,4 @@
-key classes and their responsibilities:
+**key classes and their responsibilities:**
 
 Todo – model class representing a task (title, status, due date)
 
