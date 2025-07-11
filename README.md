@@ -10,7 +10,7 @@ UI classes / Frame classes – managing user interaction
 
 Listeners / Controllers – respond to UI events
 
-🛠 Technical Stack
+**🛠 Technical Stack**
 Version needed: Java 8
 
 Langauge: Java 
