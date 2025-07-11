@@ -54,7 +54,8 @@ public class PomoTodoApp extends Application {
             System.out.println("Failed to load new Scene!");
         }
     }
-    
+
+
     // EFFECTS: Application starts here!
     @Override
     public void start(Stage primaryStage) throws Exception {

@@ -18,6 +18,9 @@ import ui.ListView;
 import ui.PomoTodoApp;
 import utility.Logger;
 
+// for the DONE, UP_NEXT,_TODO, IN_
+import model.Status;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -155,15 +158,24 @@ public class TodobarController implements Initializable {
             int selectedIndex = actionPopUpList.getSelectionModel().getSelectedIndex();
 
             switch (selectedIndex) {
-                case 0: Logger.log("TodoActionsPopupController", "TODO not implemented");
+
+                case 0: Logger.log("TodoActionsPopupController", "TODO implemented");
+                    //EditTask editTask = new EditTask(task);
+                    task.setStatus(Status.TODO);
+                    Logger.log("TodoActionsPopupController", "Todo done");
                     break;
-                case 1: Logger.log("TodoActionsPopupController", "Up Next not implemented");
+                case 1: Logger.log("TodoActionsPopupController", "Up Next implemented");
+                    task.setStatus(Status.UP_NEXT);
+                    Logger.log("TodoActionsPopupController", "Up Next DONE");
                     break;
-                case 2: Logger.log("TodoActionsPopupController", "In Progress inot implemented");
+                case 2: Logger.log("TodoActionsPopupController", "In Progress implemented");
+                    task.setStatus(Status.IN_PROGRESS);
                     break;
-                case 3: Logger.log("TodoActionsPopupController", "Done not implemented");
+                case 3: Logger.log("TodoActionsPopupController", "Done implemented");
+                    task.setStatus(Status.DONE);
                     break;
                 case 4: Logger.log("TodoActionsPopupController", "Pomodoro! not implemented");
+                    //task.setStatus(Status.);
                     break;
                 default:
                     Logger.log("TodobarActionsPopUpController", "No action is implemented for the selected option");

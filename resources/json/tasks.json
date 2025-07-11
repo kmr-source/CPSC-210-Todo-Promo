@@ -1,23 +1,13 @@
 [
  {
   "due-date": null,
-  "description": "Download the syllabus. ",
+  "description": "Read the syllabus! ",
   "priority": {
-   "important": false,
-   "urgent": false
+   "important": true,
+   "urgent": true
   },
   "tags": [{"name": "cpsc210"}],
   "status": "UP_NEXT"
- },
- {
-  "due-date": null,
-  "description": "Read the syllabus! ",
-  "priority": {
-   "important": false,
-   "urgent": false
-  },
-  "tags": [{"name": "cpsc210"}],
-  "status": "TODO"
  },
  {
   "due-date": {
@@ -36,7 +26,7 @@
    {"name": "cpsc210"},
    {"name": "assigns"}
   ],
-  "status": "TODO"
+  "status": "UP_NEXT"
  },
  {
   "due-date": {
@@ -55,7 +45,7 @@
    {"name": "exams"},
    {"name": "cpsc210"}
   ],
-  "status": "TODO"
+  "status": "UP_NEXT"
  },
  {
   "due-date": {
@@ -75,11 +65,43 @@
    {"name": "cpsc210"},
    {"name": "CPSC 221"}
   ],
-  "status": "IN_PROGRESS"
+  "status": "UP_NEXT"
+ },
+ {
+  "due-date": {
+   "month": 6,
+   "hour": 18,
+   "year": 2025,
+   "day": 11,
+   "minute": 17
+  },
+  "description": "\"work out\"",
+  "priority": {
+   "important": true,
+   "urgent": false
+  },
+  "tags": [{"name": "Gym"}],
+  "status": "UP_NEXT"
+ },
+ {
+  "due-date": {
+   "month": 6,
+   "hour": 18,
+   "year": 2025,
+   "day": 14,
+   "minute": 32
+  },
+  "description": "Making Lego ",
+  "priority": {
+   "important": true,
+   "urgent": false
+  },
+  "tags": [{"name": "Lego"}],
+  "status": "UP_NEXT"
  },
  {
   "due-date": null,
-  "description": "\"work out\"",
+  "description": "Hello\n",
   "priority": {
    "important": false,
    "urgent": false
